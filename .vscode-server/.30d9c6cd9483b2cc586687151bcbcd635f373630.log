@@ -1,0 +1,26 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:45433 (IPv4)
+Extension host agent listening on 45433
+
+[11:20:59] Extension host agent started.
+[11:20:59] [127.0.0.1][54b69f27][ManagementConnection] New connection established.
+[11:20:59] [127.0.0.1][9ebb1f1e][ExtensionHostConnection] New connection established.
+[11:20:59] [127.0.0.1][9ebb1f1e][ExtensionHostConnection] <25483> Launched Extension Host Process.
+[11:20:59] Deleted from disk ms-toolsai.jupyter-renderers /home/ubuntu/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.7
+[11:21:00] Deleted from disk ms-toolsai.jupyter /home/ubuntu/.vscode-server/extensions/ms-toolsai.jupyter-2022.4.1021342353
+[11:21:00] Deleted from disk ms-python.vscode-pylance /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2022.5.3
+Overwriting extension /home/ubuntu/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/extensions/ms-vscode.js-debug-companion with /home/ubuntu/.vscode-server/extensions/ms-vscode.js-debug-companion-1.0.18.
+Overwriting extension /home/ubuntu/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/extensions/references-view with /home/ubuntu/.vscode-server/extensions/ms-vscode.references-view-0.0.89.
+[11:21:00] Deleted from disk ms-python.python /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.2
+[11:22:00] [127.0.0.1][54b69f27][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[14:22:11] [127.0.0.1][9ebb1f1e][ExtensionHostConnection] <25483> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[14:22:11] Last EH closed, waiting before shutting down
+Last EH closed, shutting down
+[14:27:11] Last EH closed, shutting down

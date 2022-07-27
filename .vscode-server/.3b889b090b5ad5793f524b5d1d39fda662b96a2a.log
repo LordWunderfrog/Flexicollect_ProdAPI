@@ -1,0 +1,61 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:36905 (IPv4)
+Extension host agent listening on 36905
+
+[10:59:19] Extension host agent started.
+[10:59:19] [127.0.0.1][f23a233b][ManagementConnection] New connection established.
+[10:59:19] [127.0.0.1][4ed8869a][ExtensionHostConnection] New connection established.
+[10:59:19] [127.0.0.1][4ed8869a][ExtensionHostConnection] <19954> Launched Extension Host Process.
+[10:59:19] Deleted from disk ms-vscode.js-debug-companion /home/ubuntu/.vscode-server/extensions/ms-vscode.js-debug-companion-1.0.18
+[10:59:19] Deleted from disk ms-vscode.references-view /home/ubuntu/.vscode-server/extensions/ms-vscode.references-view-0.0.89
+[10:59:26] Getting Manifest... ms-python.python
+[10:59:26] Getting Manifest... ms-python.vscode-pylance
+[10:59:26] Getting Manifest... ms-toolsai.jupyter
+[10:59:26] Getting Manifest... ms-toolsai.jupyter-renderers
+[10:59:26] Installing extension: ms-toolsai.jupyter-renderers
+[10:59:26] Installing extension: ms-python.vscode-pylance
+[10:59:26] Installing extension: ms-python.python
+[10:59:26] Installing extension: ms-toolsai.jupyter
+[10:59:27] Downloaded extension: ms-toolsai.jupyter-renderers /home/ubuntu/.vscode-server/data/CachedExtensionVSIXs/ms-toolsai.jupyter-renderers-1.0.9
+[10:59:27] Downloaded extension: ms-python.python /home/ubuntu/.vscode-server/data/CachedExtensionVSIXs/ms-python.python-2022.10.1
+[10:59:27] Downloaded extension: ms-toolsai.jupyter /home/ubuntu/.vscode-server/data/CachedExtensionVSIXs/ms-toolsai.jupyter-2022.6.1201981810
+[10:59:27] Downloaded extension: ms-python.vscode-pylance /home/ubuntu/.vscode-server/data/CachedExtensionVSIXs/ms-python.vscode-pylance-2022.7.40
+[10:59:27] Extracted extension to /home/ubuntu/.vscode-server/extensions/.6b51e881-96ea-42e4-bda6-c0897ea531e3: ms-toolsai.jupyter-renderers
+[10:59:27] Renamed to /home/ubuntu/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.9
+[10:59:27] Extracting completed. ms-toolsai.jupyter-renderers
+[10:59:27] Extension installed successfully: ms-toolsai.jupyter-renderers
+[10:59:29] Extracted extension to /home/ubuntu/.vscode-server/extensions/.b30e0802-c062-4f52-adcf-48e267f5cd40: ms-toolsai.jupyter
+[10:59:29] Renamed to /home/ubuntu/.vscode-server/extensions/ms-toolsai.jupyter-2022.6.1201981810
+[10:59:29] Extracting completed. ms-toolsai.jupyter
+[10:59:29] Extension installed successfully: ms-toolsai.jupyter
+[10:59:30] [127.0.0.1][4ed8869a][ExtensionHostConnection] <19954> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[10:59:30] Last EH closed, waiting before shutting down
+[10:59:32] Extracted extension to /home/ubuntu/.vscode-server/extensions/.8b9945f5-acab-4a02-98cd-059066006548: ms-python.python
+[10:59:32] Renamed to /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.10.1
+[10:59:32] Extracting completed. ms-python.python
+[10:59:32] Extension installed successfully: ms-python.python
+[10:59:34] Extracted extension to /home/ubuntu/.vscode-server/extensions/.bb174361-f65a-4a8f-882a-78c660ec9814: ms-python.vscode-pylance
+[10:59:34] Renamed to /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2022.7.40
+[10:59:34] Extracting completed. ms-python.vscode-pylance
+[10:59:34] Extension installed successfully: ms-python.vscode-pylance
+Got delay-shutdown request while in shutdown timeout, delaying
+[10:59:38] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[10:59:38] Cancelling previous shutdown timeout
+[10:59:39] [127.0.0.1][20edebe9][ManagementConnection] New connection established.
+[10:59:39] [127.0.0.1][d0560d2d][ExtensionHostConnection] New connection established.
+[10:59:39] [127.0.0.1][d0560d2d][ExtensionHostConnection] <20121> Launched Extension Host Process.
+[10:59:39] [127.0.0.1][f23a233b][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[10:59:39] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ubuntu/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:145:7933)
+    at process.emit (node:events:390:28)
+rejected promise not handled within 1 second: ErrorNoTelemetry: Could not find pty on pty host
+stack trace: ErrorNoTelemetry: Could not find pty on pty host,    at d._throwIfNoPty (/home/ubuntu/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:24:29103),    at d.updateTitle (/home/ubuntu/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:24:25349),    at Object.call (/home/ubuntu/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:16:8293),    at onPromise (/home/ubuntu/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:15:4880),    at onRawMessage (/home/ubuntu/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:15:4268),    at /home/ubuntu/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:15:3556,    at h.invoke (/home/ubuntu/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:11:145),    at z.deliver (/home/ubuntu/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:11:2275),    at M.fire (/home/ubuntu/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:11:1853),    at process.W (/home/ubuntu/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:9:20668),    at process.emit (node:events:390:28),    at emit (node:internal/child_process:917:12),    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[10:59:41] [ErrorNoTelemetry: Could not find pty on pty host,    at d._throwIfNoPty (/home/ubuntu/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:24:29103),    at d.updateTitle (/home/ubuntu/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:24:25349),    at Object.call (/home/ubuntu/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:16:8293),    at onPromise (/home/ubuntu/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:15:4880),    at onRawMessage (/home/ubuntu/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:15:4268),    at /home/ubuntu/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:15:3556,    at h.invoke (/home/ubuntu/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:11:145),    at z.deliver (/home/ubuntu/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:11:2275),    at M.fire (/home/ubuntu/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:11:1853),    at process.W (/home/ubuntu/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:9:20668),    at process.emit (node:events:390:28),    at emit (node:internal/child_process:917:12),    at processTicksAndRejections (node:internal/process/task_queues:84:21)]

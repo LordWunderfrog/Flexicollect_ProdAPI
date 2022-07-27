@@ -1,0 +1,17 @@
+[2022-05-18 09:48:05.425] [remoteagent] [info] Extension host agent started.
+[2022-05-18 09:48:05.678] [remoteagent] [info] [127.0.0.1][6f98de9a][ManagementConnection] New connection established.
+[2022-05-18 09:48:05.690] [remoteagent] [info] [127.0.0.1][51374e31][ExtensionHostConnection] New connection established.
+[2022-05-18 09:48:05.696] [remoteagent] [info] [127.0.0.1][51374e31][ExtensionHostConnection] <11955> Launched Extension Host Process.
+[2022-05-18 09:48:06.000] [remoteagent] [error] [/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.2]: Extension is not compatible with Code 1.66.0. Extension requires: ^1.67.0.
+[2022-05-18 09:48:06.012] [remoteagent] [error] [/home/ubuntu/.vscode-server/extensions/ms-toolsai.jupyter-2022.4.1021342353]: Extension is not compatible with Code 1.66.0. Extension requires: ^1.67.0.
+[2022-05-18 09:48:08.767] [remoteagent] [info] Getting Manifest... ms-vscode.references-view
+[2022-05-18 09:48:08.837] [remoteagent] [info] Installing extension: ms-vscode.references-view
+[2022-05-18 09:48:09.192] [remoteagent] [info] Downloaded extension: ms-vscode.references-view /home/ubuntu/.vscode-server/data/CachedExtensionVSIXs/ms-vscode.references-view-0.0.89
+[2022-05-18 09:48:09.221] [remoteagent] [info] Extracted extension to /home/ubuntu/.vscode-server/extensions/.04cda5e1-eb62-482d-bb18-091d3e8d18eb: ms-vscode.references-view
+[2022-05-18 09:48:09.227] [remoteagent] [info] Renamed to /home/ubuntu/.vscode-server/extensions/ms-vscode.references-view-0.0.89
+[2022-05-18 09:48:09.228] [remoteagent] [info] Extracting completed. ms-vscode.references-view
+[2022-05-18 09:48:09.233] [remoteagent] [info] Extension installed successfully: ms-vscode.references-view
+[2022-05-18 09:48:34.983] [remoteagent] [info] [127.0.0.1][6f98de9a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-05-18 09:48:35.003] [remoteagent] [info] [127.0.0.1][51374e31][ExtensionHostConnection] <11955> Extension Host Process exited with code: 0, signal: null.
+[2022-05-18 09:48:35.004] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-05-18 09:53:35.004] [remoteagent] [info] Last EH closed, shutting down

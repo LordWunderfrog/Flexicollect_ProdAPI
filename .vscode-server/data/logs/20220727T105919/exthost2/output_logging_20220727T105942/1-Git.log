@@ -1,0 +1,51 @@
+[2022-07-27T10:59:42.545Z] Log level: Info
+[2022-07-27T10:59:42.553Z] [info] Validating found git in: git
+[2022-07-27T10:59:42.594Z] [info] Using git 2.17.1 from git
+[2022-07-27T10:59:42.667Z] > git rev-parse --show-toplevel [56ms]
+[2022-07-27T10:59:42.667Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-27T10:59:42.684Z] > git rev-parse --show-toplevel [4ms]
+[2022-07-27T10:59:42.684Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-27T10:59:42.689Z] > git rev-parse --show-toplevel [1ms]
+[2022-07-27T10:59:42.689Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-27T10:59:42.694Z] > git rev-parse --show-toplevel [1ms]
+[2022-07-27T10:59:42.694Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-27T10:59:42.699Z] > git rev-parse --show-toplevel [1ms]
+[2022-07-27T10:59:42.699Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-27T10:59:42.704Z] > git rev-parse --show-toplevel [1ms]
+[2022-07-27T10:59:42.704Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-27T10:59:42.708Z] > git rev-parse --show-toplevel [1ms]
+[2022-07-27T10:59:42.708Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-27T10:59:42.713Z] > git rev-parse --show-toplevel [1ms]
+[2022-07-27T10:59:42.713Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-27T10:59:42.718Z] > git rev-parse --show-toplevel [1ms]
+[2022-07-27T10:59:42.718Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-27T10:59:42.723Z] > git rev-parse --show-toplevel [1ms]
+[2022-07-27T10:59:42.723Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-27T10:59:42.731Z] > git rev-parse --show-toplevel [4ms]
+[2022-07-27T10:59:42.738Z] > git rev-parse --git-dir --git-common-dir [1ms]
+[2022-07-27T10:59:42.748Z] [info] Open repository: /home/ubuntu/eolas_paypal_scheduler
+[2022-07-27T10:59:42.772Z] > git status -z -uall [11ms]
+[2022-07-27T10:59:42.779Z] > git symbolic-ref --short HEAD [1ms]
+[2022-07-27T10:59:42.784Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-07-27T10:59:42.794Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+[2022-07-27T10:59:42.794Z] > git fetch [37ms]
+[2022-07-27T10:59:42.794Z] error: cannot open .git/FETCH_HEAD: Permission denied
+[2022-07-27T10:59:42.797Z] > git remote --verbose [5ms]
+[2022-07-27T10:59:42.819Z] > git config --get commit.template [11ms]
+[2022-07-27T10:59:42.829Z] > git status -z -uall [2ms]
+[2022-07-27T10:59:42.836Z] > git symbolic-ref --short HEAD [2ms]
+[2022-07-27T10:59:42.862Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [22ms]
+[2022-07-27T10:59:42.913Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [44ms]
+[2022-07-27T10:59:42.915Z] > git remote --verbose [41ms]
+[2022-07-27T10:59:42.956Z] > git config --get commit.template [10ms]
+[2022-07-27T10:59:43.457Z] > git check-ignore -v -z --stdin [1ms]
+[2022-07-27T10:59:43.486Z] > git rev-parse --show-toplevel [1ms]
+[2022-07-27T10:59:43.486Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-27T10:59:43.500Z] > git rev-parse --show-toplevel [1ms]
+[2022-07-27T10:59:43.500Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-27T10:59:43.513Z] > git rev-parse --show-toplevel [2ms]
+[2022-07-27T10:59:43.513Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-27T10:59:58.569Z] > git rev-parse --show-toplevel [2ms]
+[2022-07-27T10:59:58.569Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-27T11:00:14.413Z] > git rev-parse --show-toplevel [1ms]
+[2022-07-27T11:00:14.413Z] fatal: not a git repository (or any of the parent directories): .git

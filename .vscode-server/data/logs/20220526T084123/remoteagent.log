@@ -1,0 +1,11 @@
+[2022-05-26 08:41:23.760] [remoteagent] [info] Extension host agent started.
+[2022-05-26 15:10:43.711] [remoteagent] [info] [127.0.0.1][e90cee14][ManagementConnection] New connection established.
+[2022-05-26 15:10:43.761] [remoteagent] [info] [127.0.0.1][ff75560f][ExtensionHostConnection] New connection established.
+[2022-05-26 15:10:43.765] [remoteagent] [info] [127.0.0.1][ff75560f][ExtensionHostConnection] <739> Launched Extension Host Process.
+[2022-05-26 15:10:44.098] [remoteagent] [error] [/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.2]: Extension is not compatible with Code 1.66.2. Extension requires: ^1.67.0.
+[2022-05-26 15:10:44.099] [remoteagent] [error] [/home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2022.5.2]: Extension is not compatible with Code 1.66.2. Extension requires: ^1.67.0.
+[2022-05-26 15:10:44.110] [remoteagent] [error] [/home/ubuntu/.vscode-server/extensions/ms-toolsai.jupyter-2022.4.1021342353]: Extension is not compatible with Code 1.66.2. Extension requires: ^1.67.0.
+[2022-05-26 15:11:13.300] [remoteagent] [info] [127.0.0.1][e90cee14][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-05-26 15:11:13.318] [remoteagent] [info] [127.0.0.1][ff75560f][ExtensionHostConnection] <739> Extension Host Process exited with code: 0, signal: null.
+[2022-05-26 15:11:13.318] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-05-26 15:16:13.319] [remoteagent] [info] Last EH closed, shutting down

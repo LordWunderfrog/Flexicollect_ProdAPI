@@ -1,0 +1,14 @@
+[2022-05-25 09:17:34.652] [exthost] [info] Extension host with pid 25584 started
+[2022-05-25 09:17:34.676] [exthost] [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/f047f4bd6db0fd7fc2582cfdf8daa486/vscode.lock': Lock acquired.
+[2022-05-25 09:17:35.133] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-05-25 09:17:35.140] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-05-25 09:17:35.145] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-05-25 09:17:38.951] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-05-25 09:17:39.048] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-05-25 09:17:39.217] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-25 09:17:39.238] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-25 09:17:39.244] [exthost] [info] Eager extensions activated
+[2022-05-25 09:17:42.148] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+[2022-05-25 15:13:13.404] [exthost] [info] Extension host terminating: renderer disconnected for too long (1)
+[2022-05-25 15:13:13.405] [exthost] [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/f047f4bd6db0fd7fc2582cfdf8daa486/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-05-25 15:13:13.415] [exthost] [info] Extension host with pid 25584 exiting with code 0

@@ -1,0 +1,7 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.renderWhitespace": "all",
+    "remote.SSH.remotePlatform": {
+        "prodapi": "linux"
+    }
+}

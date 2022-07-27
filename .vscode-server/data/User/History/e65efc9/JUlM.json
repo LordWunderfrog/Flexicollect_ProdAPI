@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "security.workspace.trust.untrustedFiles": "open",
+    "remote.SSH.remotePlatform": {
+        "prodapi": "linux"
+    }
+}

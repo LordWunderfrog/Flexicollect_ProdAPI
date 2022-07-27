@@ -1,0 +1,29 @@
+[2022-05-25T09:17:39.151Z] Validating found git in: git
+[2022-05-25T09:17:39.200Z] Using git 2.17.1 from git
+[2022-05-25T09:17:39.249Z] > git rev-parse --show-toplevel [34ms]
+[2022-05-25T09:17:39.280Z] > git rev-parse --git-dir --git-common-dir [21ms]
+[2022-05-25T09:17:39.289Z] Open repository: /var/www/flask
+[2022-05-25T09:17:39.599Z] > git status -z -uall [269ms]
+[2022-05-25T09:17:39.678Z] > git show --textconv :firstapp/log/logging [7ms]
+[2022-05-25T09:17:39.682Z] > git ls-files --stage -- /var/www/flask/firstapp/log/logging [6ms]
+[2022-05-25T09:17:39.902Z] > git check-ignore -v -z --stdin [4ms]
+[2022-05-25T09:17:40.298Z] > git fetch [982ms]
+[2022-05-25T09:17:40.298Z] Missing or invalid credentials.
+Skip silent fetch commands
+remote: Invalid credentials
+fatal: Authentication failed for 'https://umaitero@bitbucket.org/umaitero/eolas-api.git/'
+[2022-05-25T09:17:40.667Z] > git ls-files --stage -- /var/www/flask/firstapp/log/logging [2ms]
+[2022-05-25T09:17:40.697Z] > git show --textconv :firstapp/log/logging [2ms]
+[2022-05-25T09:17:42.024Z] > git symbolic-ref --short HEAD [1ms]
+[2022-05-25T09:17:42.029Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-05-25T09:17:42.037Z] > git remote --verbose [1ms]
+[2022-05-25T09:17:42.038Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+[2022-05-25T09:17:44.720Z] > git config --get commit.template [2538ms]
+[2022-05-25T09:17:58.051Z] > git check-ignore -v -z --stdin [2ms]
+[2022-05-25T09:20:08.179Z] > git show --textconv :firstapp/modules/surveyAnswers_web.py [13ms]
+[2022-05-25T09:20:08.184Z] > git ls-files --stage -- /var/www/flask/firstapp/modules/surveyAnswers_web.py [6ms]
+[2022-05-25T09:20:08.213Z] > git cat-file -s e657d88af6ecce06f38624ecc75bc0d896ece1b3 [1ms]
+[2022-05-25T09:20:08.811Z] > git check-ignore -v -z --stdin [4ms]
+[2022-05-25T09:20:09.698Z] > git show --textconv :firstapp/modules/api_token_check.py [4ms]
+[2022-05-25T09:20:09.700Z] > git ls-files --stage -- /var/www/flask/firstapp/modules/api_token_check.py [2ms]
+[2022-05-25T09:20:09.705Z] > git cat-file -s 21b47432729fa718e40ef7b24c7b11a3eeed8300 [1ms]

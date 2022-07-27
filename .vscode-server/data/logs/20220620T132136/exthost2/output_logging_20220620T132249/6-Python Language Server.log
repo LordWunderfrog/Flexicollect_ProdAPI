@@ -1,0 +1,17 @@
+[Info  - 1:58:30 PM] (2180) Pylance language server 2022.6.20 (pyright 979d9c9e) starting
+[Info  - 1:58:30 PM] (2180) Server root directory: /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.20/dist
+Notebook support: Legacy
+[Info  - 1:58:30 PM] (2180) No configuration file found.
+[Info  - 1:58:30 PM] (2180) No pyproject.toml file found.
+[Info  - 1:58:30 PM] (2180) Setting pythonPath for service "ubuntu": "/usr/bin/python3"
+[Warn  - 1:58:30 PM] (2180) stubPath /home/ubuntu/typings is not a valid directory.
+[Info  - 1:58:30 PM] (2180) Assuming Python version 3.6
+[Info  - 1:58:30 PM] (2180) Assuming Python platform Linux
+[Info  - 1:58:31 PM] (2180) Searching for source files
+[Info  - 1:58:31 PM] (2180) Found 4 source files
+[Info  - 1:58:32 PM] (2180) Background analysis(1) root directory: /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.20/dist
+[Info  - 1:58:32 PM] (2180) Background analysis(1) started
+[Info  - 1:58:32 PM] (2180) Indexer background runner(2) root directory: /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.20/dist (index)
+[Info  - 1:58:32 PM] (2180) Indexing(2) started
+[Info  - 1:58:34 PM] (2180) [IDX(2)] Long operation: index libraries /home/ubuntu (2363ms)
+[Info  - 1:58:34 PM] (2180) Indexer done(2). indexed 450 files

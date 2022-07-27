@@ -1,0 +1,22 @@
+[2022-06-20 13:22:49.678] [exthost] [info] Extension host with pid 2011 started
+[2022-06-20 13:22:49.696] [exthost] [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/8e99f387acd80541f45c4bb26b72cc59/vscode.lock': Lock acquired.
+[2022-06-20 13:22:49.969] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-20 13:22:49.975] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-06-20 13:22:49.980] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-20 13:22:50.324] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-20 13:22:50.515] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-20 13:22:50.533] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-20 13:22:50.539] [exthost] [info] Eager extensions activated
+[2022-06-20 13:31:13.277] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2022-06-20 13:57:47.948] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-06-20 13:57:47.955] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-06-20 13:57:47.971] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+[2022-06-20 13:57:48.052] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+[2022-06-20 13:57:58.545] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-06-20 13:58:27.906] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2022-06-20 13:58:28.268] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-06-20 13:58:29.622] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2022-06-20 13:58:29.723] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+[2022-06-20 18:23:30.925] [exthost] [info] Extension host terminating: renderer disconnected for too long (1)
+[2022-06-20 18:23:30.926] [exthost] [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/8e99f387acd80541f45c4bb26b72cc59/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-06-20 18:23:30.960] [exthost] [info] Extension host with pid 2011 exiting with code 0

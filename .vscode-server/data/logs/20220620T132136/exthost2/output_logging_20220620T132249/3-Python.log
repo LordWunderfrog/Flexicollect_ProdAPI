@@ -1,0 +1,25 @@
+Experiment 'pythonaa' is active
+Experiment 'pythonTensorboardExperiment' is active
+Experiment 'pythonSurveyNotification' is active
+Experiment 'PythonPyTorchProfiler' is active
+LSP Notebooks experiment is disabled -- not in treatment group
+> conda info --json
+> /usr/bin/python ./.vscode-server/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+> /usr/bin/python3 ./.vscode-server/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+> /usr/include/python3.6 ./.vscode-server/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+[ERROR 2022-5-20 13:58:30.132]: [Error: Command failed: /usr/include/python3.6 /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+/bin/sh: 1: /usr/include/python3.6: Permission denied
+
+	at ChildProcess.exithandler (node:child_process:397:12)
+	at ChildProcess.emit (node:events:390:28)
+	at maybeClose (node:internal/child_process:1064:16)
+	at Socket.<anonymous> (node:internal/child_process:450:11)
+	at Socket.emit (node:events:390:28)
+	at Pipe.<anonymous> (node:net:687:12)] {
+  killed: false,
+  code: 126,
+  signal: null,
+  cmd: '/usr/include/python3.6 /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py'
+}
+Python interpreter path: /usr/bin/python3
+Starting Pylance language server.

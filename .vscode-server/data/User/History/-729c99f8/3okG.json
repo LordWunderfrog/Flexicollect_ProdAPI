@@ -1,0 +1,7 @@
+{
+    "editor.fontSize": 12,
+    "security.workspace.trust.untrustedFiles": "open",
+    "remote.SSH.remotePlatform": {
+        "prodapi": "linux"
+    }
+}

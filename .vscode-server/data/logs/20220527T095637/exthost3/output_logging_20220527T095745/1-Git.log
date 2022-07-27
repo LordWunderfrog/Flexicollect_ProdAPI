@@ -1,0 +1,42 @@
+[2022-05-27T09:57:47.113Z] Validating found git in: git
+[2022-05-27T09:57:47.165Z] Using git 2.17.1 from git
+[2022-05-27T09:57:47.206Z] > git rev-parse --show-toplevel [29ms]
+[2022-05-27T09:57:47.206Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-27T09:57:47.217Z] > git rev-parse --show-toplevel [1ms]
+[2022-05-27T09:57:47.217Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-27T09:57:47.224Z] > git rev-parse --show-toplevel [2ms]
+[2022-05-27T09:57:47.224Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-27T09:57:47.230Z] > git rev-parse --show-toplevel [2ms]
+[2022-05-27T09:57:47.230Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-27T09:57:47.238Z] > git rev-parse --show-toplevel [4ms]
+[2022-05-27T09:57:47.238Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-27T09:57:47.246Z] > git rev-parse --show-toplevel [3ms]
+[2022-05-27T09:57:47.246Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-27T09:57:47.255Z] > git rev-parse --show-toplevel [5ms]
+[2022-05-27T09:57:47.255Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-27T09:57:47.261Z] > git rev-parse --show-toplevel [2ms]
+[2022-05-27T09:57:47.261Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-27T09:57:47.267Z] > git rev-parse --show-toplevel [2ms]
+[2022-05-27T09:57:47.267Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-27T09:57:47.272Z] > git rev-parse --show-toplevel [1ms]
+[2022-05-27T09:57:47.272Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-27T09:57:47.281Z] > git rev-parse --show-toplevel [6ms]
+[2022-05-27T09:57:47.287Z] > git rev-parse --git-dir --git-common-dir [1ms]
+[2022-05-27T09:57:47.295Z] Open repository: /home/ubuntu/eolas_paypal_scheduler
+[2022-05-27T09:57:47.354Z] > git status -z -uall [50ms]
+[2022-05-27T09:57:47.362Z] > git symbolic-ref --short HEAD [2ms]
+[2022-05-27T09:57:47.372Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+[2022-05-27T09:57:47.384Z] > git remote --verbose [2ms]
+[2022-05-27T09:57:47.384Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+[2022-05-27T09:57:47.409Z] > git config --get commit.template [15ms]
+[2022-05-27T09:57:47.877Z] > git check-ignore -v -z --stdin [1ms]
+[2022-05-27T09:57:54.102Z] > git rev-parse --show-toplevel [1ms]
+[2022-05-27T09:57:54.102Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-27T09:57:56.060Z] > git rev-parse --show-toplevel [1ms]
+[2022-05-27T09:57:56.060Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-27T10:08:14.842Z] > git rev-parse --show-toplevel [1ms]
+[2022-05-27T10:08:14.842Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-27T10:28:47.144Z] > git rev-parse --show-toplevel [2ms]
+[2022-05-27T10:28:47.144Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-27T10:34:13.473Z] > git rev-parse --show-toplevel [2ms]
+[2022-05-27T10:34:13.473Z] fatal: not a git repository (or any of the parent directories): .git

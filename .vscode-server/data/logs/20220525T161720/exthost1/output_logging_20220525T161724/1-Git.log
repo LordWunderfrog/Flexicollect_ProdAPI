@@ -1,0 +1,10 @@
+[2022-05-25T16:17:25.337Z] Validating found git in: git
+[2022-05-25T16:17:25.380Z] Using git 2.17.1 from git
+[2022-05-25T16:17:25.421Z] > git rev-parse --show-toplevel [30ms]
+[2022-05-25T16:17:25.451Z] > git rev-parse --git-dir --git-common-dir [21ms]
+[2022-05-25T16:17:25.460Z] Open repository: /var/www/flask
+[2022-05-25T16:17:25.653Z] > git status -z -uall [186ms]
+[2022-05-25T16:17:26.188Z] > git show --textconv :firstapp/modules/api_token_check.py [9ms]
+[2022-05-25T16:17:26.191Z] > git ls-files --stage -- /var/www/flask/firstapp/modules/api_token_check.py [4ms]
+[2022-05-25T16:17:26.209Z] > git cat-file -s 21b47432729fa718e40ef7b24c7b11a3eeed8300 [1ms]
+[2022-05-25T16:17:26.427Z] > git check-ignore -v -z --stdin [4ms]
